@@ -1,6 +1,7 @@
 @echo off
 rem (c) 2024 Heavy Sniper Mk2. All rights reserved.
 rem Unauthorized Copying of this script is prohibited without my permission.
+rem removing credits of this script is PROHIBITED! please leave the credits alone!
 rem https://youtube.com/@heavysnipermk2781
 
 title Automated windows CMD installer
@@ -10,14 +11,14 @@ rem user choice selection
 :start
 cls
 echo   +----------------------------------------+
-echo   ^|  Windows 7 Build 6730 CMD installer    ^|
+echo   ^|  Windows (edit this) CMD installer     ^|
 echo   ^|   Automated Windows CMD installer      ^|
 echo   ^|         By Heavy Sniper Mk2            ^|
 echo   +----------------------------------------+
 echo.
 echo Please Choose an option.
 echo.
-echo 1. Install Windows 7 Build 6730
+echo 1. Install Windows (edit this to the name of your windows)
 echo 2. Check WIM image information
 echo 3. Reboot system
 echo 4. Exit to cmd
@@ -141,7 +142,7 @@ rem Exit to cmd
 :option4
 exit /b
 
-rem dev mode (verbose) 
+rem dev mode 
 :option5
 cls
 echo lis dis | diskpart | find "Disk"
