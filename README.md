@@ -18,4 +18,4 @@ How to use this script:
 5. now put wimlib imagex files on the same location as the setup.bat and your wim file (just wimlib-imagex.exe and libwim-15.dll, you dont need the others)
 6. after you do that, save the iso file and try it out on a vm using cmd on windows pe
 7. once you have the cmd on windows pe, navigate to D: and type setup, after that just follow the things on cmd
-8. once it sucessfully worked and installed windows with no problem, its ready (please credit me if youre gonna showcase this script to your project, https://www.youtube.com/@heavysnipermk2781)
+8. once it successfully worked and installed windows with no problem, its ready (please credit me if youre gonna showcase this script to your project, https://www.youtube.com/@heavysnipermk2781)
